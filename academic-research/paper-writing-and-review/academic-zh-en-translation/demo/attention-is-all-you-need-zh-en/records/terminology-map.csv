@@ -1,0 +1,21 @@
+﻿source_term,target_term,term_type,context,evidence_ids,alternatives,avoid,confidence,decision_note
+attention mechanism,注意力机制,concept,"title and abstract",zh01|zh03|en01|en02,attention,"注意机制",high,Chinese NLP literature predominantly uses 注意力机制
+self-attention,自注意力,concept,"Transformer architecture",zh03|en01,自注意力机制,"自身注意力",high,Retain the standard concise form after first definition
+multi-head attention,多头注意力,concept,"Transformer architecture",zh09|en01,多头注意力机制,"多头关注",high,Use mechanism only when syntactically needed
+Transformer,Transformer,proper name,"model name",zh02|zh09|en01,变换器,"转换器",high,Retain the internationally conventional model name
+neural machine translation,神经机器翻译,concept,"field classification",zh01|zh05|en02|en08,NMT,"神经网络机器翻译",high,Use full form first and NMT thereafter when useful
+sequence transduction,序列转导,collocation,"abstract opening",en01|en03,序列转换,"序列传导",medium,Prefer 序列转导 in technical-model context
+encoder,编码器,component,"abstract opening",zh01|en01|en03,编码端,"编码机",high,Standard component name
+decoder,解码器,component,"abstract opening",zh01|en01|en03,解码端,"译码器",high,Use 解码器 consistently with 编码器
+positional encoding,位置编码,concept,"Transformer architecture",zh03|en01,位置嵌入,"位置译码",high,Do not conflate with positional embedding
+embedding,嵌入,concept,"model components",zh10|en01,词嵌入,"内嵌",high,Specify 词嵌入 only when the source says word embedding
+feed-forward network,前馈网络,component,"model components",en01,前馈神经网络,"前向传播网络",high,Use the fuller form when contrast with other network types matters
+residual connection,残差连接,concept,"model components",en01,跳跃连接,"剩余连接",high,Use 残差连接 as the standard term
+layer normalization,层归一化,concept,"model components",en01,层标准化,"层正规化",high,Do not replace with batch normalization
+scaled dot-product attention,缩放点积注意力,concept,"attention calculation",en01,缩放点积注意力机制,"缩放内积注意力",high,Keep 点积 for dot product
+query,查询,variable,"attention variables",en01,查询向量,"问题",high,Use 查询向量 when referring to the vector rather than symbol Q
+key,键,variable,"attention variables",en01,键向量,"关键字",high,Use 键向量 when referring to the vector rather than symbol K
+value,值,variable,"attention variables",en01,值向量,"价值",high,Use 值向量 when referring to the vector rather than symbol V
+BLEU,BLEU,metric,"experimental results",zh10|en01,双语评估替换值,"蓝色分数",high,Retain the metric acronym and do not translate its numeric value
+parallelizable,可并行化,property,"abstract result",en01,具有更高并行性,"并行处理",high,Use a comparative construction when the source is comparative
+constituency parsing,短语结构句法分析,task,"abstract conclusion",en01,成分句法分析,"一致性解析",medium,Use the target-field term and retain the source task scope

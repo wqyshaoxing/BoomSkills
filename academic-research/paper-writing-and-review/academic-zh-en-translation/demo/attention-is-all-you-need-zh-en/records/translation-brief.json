@@ -1,0 +1,12 @@
+{
+  "source_language": "en",
+  "target_language": "zh",
+  "field_classification": {
+    "discipline": "computer science / natural language processing",
+    "subfield": "Transformer architectures and neural machine translation",
+    "confidence": "high; verified from the NeurIPS source record and manuscript abstract"
+  },
+  "source_of_truth": "input/attention-is-all-you-need.pdf; translation/source-abstract.md",
+  "target_output": "translation/translated-abstract.tex and translation/translated-abstract.pdf",
+  "status": "validated excerpt demonstration"
+}

@@ -1,0 +1,3 @@
+# Local, source-derived integration tests are not part of the distributable skill.
+demo/
+demo-workbench/

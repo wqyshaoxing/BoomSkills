@@ -1,0 +1,7 @@
+interface:
+  display_name: "Zotero 批量 PDF 入库"
+  short_description: "按时间戳批次导入本地 PDF 到 Zotero"
+  default_prompt: "Use $zotero-batch-pdf-import to batch-import local PDFs into a timestamp-named Zotero collection while retaining a timestamp batch tag."
+
+policy:
+  allow_implicit_invocation: true

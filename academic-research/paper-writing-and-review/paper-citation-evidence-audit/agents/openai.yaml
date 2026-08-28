@@ -1,0 +1,6 @@
+interface:
+  display_name: "论文引用证据审计"
+  short_description: "为论文评述逐条生成原文、翻译、定位和截图证据包"
+  default_prompt: "Use $paper-citation-evidence-audit to audit the literature claims in my manuscript and create a per-reference evidence package."
+policy:
+  allow_implicit_invocation: true

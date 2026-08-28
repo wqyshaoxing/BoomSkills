@@ -1,0 +1,7 @@
+interface:
+  display_name: "文献深度分析"
+  short_description: "用 OpenCode 交叉分析论文与源码，失败后由 Codex 兜底"
+  default_prompt: "Use $paper-literature-analysis to analyze papers in the selected Zotero collection with isolated OpenCode processes, bounded retries, low-frequency polling, and reviewed analysis.md outputs beside the PDFs."
+
+policy:
+  allow_implicit_invocation: true

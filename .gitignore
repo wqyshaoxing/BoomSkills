@@ -1,0 +1,9 @@
+# Reproducible skills do not vendor local dependency caches or build workspaces.
+**/node_modules/
+**/__pycache__/
+**/work/
+
+# Local office-rendering and preview by-products.
+**/docx-render/
+**/intermediate/
+*.inspect.ndjson

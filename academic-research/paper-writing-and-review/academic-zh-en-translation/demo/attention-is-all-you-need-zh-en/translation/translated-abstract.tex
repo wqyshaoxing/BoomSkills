@@ -1,0 +1,32 @@
+\documentclass[11pt]{ctexart}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setCJKmainfont{SimSun}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.35em}
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries 注意力机制即所需的一切\par}
+\vspace{0.45em}
+{\large 英文到中文学术翻译示例：标题与摘要\par}
+\vspace{0.8em}
+\rule{0.72\linewidth}{0.4pt}
+\end{center}
+
+\section*{摘要}
+
+当前占主导地位的序列转导模型通常建立在复杂的循环神经网络或卷积神经网络之上，并包含编码器和解码器。性能最优的模型还通过注意力机制连接编码器与解码器。本文提出一种新的简洁网络架构——Transformer。该架构完全基于注意力机制，彻底摒弃循环结构和卷积结构。在两项机器翻译任务上的实验表明，该模型在翻译质量上更优，同时具有更高的可并行性，训练所需时间也显著更少。
+
+在 WMT 2014 英译德任务上，本文模型取得了 28.4 BLEU 的结果，比包括集成模型在内的既有最佳结果高出 2 个以上 BLEU。在 WMT 2014 英译法任务上，该模型在 8 块 GPU 上训练 3.5 天后，获得了 41.8 的单模型最先进 BLEU 分数；其训练成本仅为文献中最佳模型训练成本的一小部分。通过将 Transformer 成功应用于英语短语结构句法分析，并分别在大规模和有限训练数据条件下进行验证，本文进一步表明该模型能够良好地泛化到其他任务。
+
+\section*{术语与忠实性说明}
+
+本译文将 \emph{sequence transduction} 译为“序列转导”，将 \emph{attention mechanism} 译为“注意力机制”，并保留 Transformer、WMT 2014、BLEU 与 GPU 等国际通行名称或缩写。数值、比较关系、限定语和实验条件均与源文对齐；未补充任何源文未陈述的结论。
+
+\vfill
+\noindent\rule{\linewidth}{0.4pt}\par
+\noindent\small Source: Vaswani et al., NeurIPS 2017. This bounded sample is for local skill validation; see records for terminology evidence.
+
+\end{document}

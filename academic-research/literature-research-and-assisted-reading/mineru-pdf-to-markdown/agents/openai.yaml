@@ -1,0 +1,7 @@
+interface:
+  display_name: "MinerU PDF 转 Markdown"
+  short_description: "调用 MinerU 将 PDF 转为含图片的 full.md 文件夹"
+  default_prompt: "Use $mineru-pdf-to-markdown to process PDFs in the currently selected Zotero timestamp collection and save full.md plus images beside each source PDF."
+
+policy:
+  allow_implicit_invocation: true
