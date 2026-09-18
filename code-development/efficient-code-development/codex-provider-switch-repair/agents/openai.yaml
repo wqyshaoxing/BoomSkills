@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Provider Switch Repair"
+  short_description: "Repair Codex sessions broken by a model provider switch"
+  default_prompt: "My old Codex sessions stopped working after I switched model providers; diagnose and fix them."
